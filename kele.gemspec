@@ -15,6 +15,7 @@ Gem::Specification.new do |spec|
   spec.homepage = 'http://rubygems.org/gems/kele'
   spec.license = 'MIT'
   spec.add_runtime_dependency 'httparty', '~> 0.13'
+  spec.add_runtime_dependency 'json', '~> 1.8'
 
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
