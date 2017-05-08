@@ -11,6 +11,6 @@ module Roadmap
 
   def self.get_checkpoint(id)
     checkpoint = get($base + "/checkpoints/#{id}", $auth_token)
-
+    JSON.parse!(checkpoint.body)
   end
 end
